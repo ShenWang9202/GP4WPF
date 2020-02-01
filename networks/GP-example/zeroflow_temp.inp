@@ -1,0 +1,150 @@
+[TITLE]
+
+[JUNCTIONS]
+ 2                                     0.0000
+ 3                                     0.0000
+ 4                                     0.0000
+ 5                                     0.0000
+ 6                                     0.0000
+ 7                                     0.0000
+ 8                                     0.0000
+
+[RESERVOIRS]
+ 1                                    40.0000 
+
+[TANKS]
+
+[PIPES]
+ 1                               1                               2                                  1000.0000     250.0000     120.0000       0.0000 
+ 2                               2                               3                                  1000.0000     250.0000     120.0000       0.0000 
+ 3                               1                               3                                  1000.0000     250.0000     120.0000       0.0000 
+ 4                               2                               4                                  1000.0000     250.0000     120.0000       0.0000 
+ 5                               3                               5                                  1000.0000     250.0000     120.0000       0.0000 
+ 6                               4                               5                                  1000.0000     250.0000     120.0000       0.0000 
+ 7                               4                               6                                  1000.0000     250.0000     120.0000       0.0000 
+ 8                               5                               7                                  1000.0000     250.0000     120.0000       0.0000 
+ 9                               6                               7                                  1000.0000     250.0000     120.0000       0.0000 
+ 10                              6                               8                                  1000.0000     250.0000     120.0000       0.0000 
+ 11                              7                               8                                  1000.0000     250.0000     120.0000       0.0000 
+
+[PUMPS]
+
+[VALVES]
+
+[DEMANDS]
+ 2                                     0.000000 
+ 3                                     0.000000 
+ 4                                     0.000000 
+ 5                                     0.000000 
+ 6                                     0.000000 
+ 7                                     0.000000 
+ 8                                    80.000000 
+
+[EMITTERS]
+
+[STATUS]
+
+[PATTERNS]
+
+[CURVES]
+
+[CONTROLS]
+
+[QUALITY]
+
+[SOURCES]
+
+[MIXING]
+
+[REACTIONS]
+ ORDER  BULK            1.00
+ ORDER  WALL            1
+ ORDER  TANK            1.00
+ GLOBAL BULK            0.000000
+ GLOBAL WALL            0.000000
+
+[ENERGY]
+ GLOBAL EFFIC        75.0000
+ DEMAND CHARGE       0.0000
+
+[TIMES]
+ DURATION            0:00:00
+ HYDRAULIC TIMESTEP  1:00:00
+ QUALITY TIMESTEP    0:05:00
+ REPORT TIMESTEP     1:00:00
+ REPORT START        0:00:00
+ PATTERN TIMESTEP    1:00:00
+ PATTERN START       0:00:00
+ RULE TIMESTEP       0:06:00
+ START CLOCKTIME     0:00:00
+ STATISTIC           NONE
+
+[OPTIONS]
+ UNITS               LPS
+ PRESSURE            METERS
+ HEADLOSS            H-W
+ UNBALANCED          CONTINUE 10
+ QUALITY             NONE
+ DEMAND MULTIPLIER   1.0000
+ EMITTER EXPONENT    0.5000
+ VISCOSITY           1.000000
+ DIFFUSIVITY         1.000000
+ SPECIFIC GRAVITY    1.000000
+ TRIALS              40
+ ACCURACY            0.00100000
+ TOLERANCE           0.01000000
+ CHECKFREQ           2
+ MAXCHECK            10
+ DAMPLIMIT           0.00000000
+
+[REPORT]
+ PAGESIZE            0
+ STATUS              NO
+ SUMMARY             NO
+ ENERGY              NO
+ MESSAGES            YES
+ NODES               NONE
+ LINKS               NONE
+ Elevation           NO
+ Demand              PRECISION 2
+ Head                PRECISION 2
+ Pressure            PRECISION 2
+ Quality             NO
+ Length              NO
+ Diameter            NO
+ Flow                PRECISION 2
+ Velocity            PRECISION 2
+ Headloss            PRECISION 2
+ Quality             NO
+ State               NO
+ Setting             NO
+ Reaction            NO
+
+
+
+[COORDINATES]
+ 2                                  2950.560000    7097.290000
+ 3                                  5390.750000    7049.440000
+ 4                                  2998.410000    5582.140000
+ 5                                  5502.390000    5534.290000
+ 6                                  3062.200000    4114.830000
+ 7                                  5629.980000    4003.190000
+ 8                                  4385.960000    2743.220000
+ 1                                  4210.530000    8500.800000
+
+[TAGS]
+
+[VERTICES]
+;Link            	X-Coord         	Y-Coord
+
+[LABELS]
+;X-Coord           Y-Coord          Label & Anchor Node
+
+[BACKDROP]
+ DIMENSIONS     	0.00            	0.00            	10000.00        	10000.00        
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+
+[END]

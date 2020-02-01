@@ -1,0 +1,455 @@
+[TITLE]
+Itanagar Water Supply Network Phase I & PhaseII 
+Three tanks are interconnected by pipe 
+FCV connected in 11 MLD outflow pipe
+Senkhiview Pump desgined as per flow capacity
+
+[JUNCTIONS]
+;ID              	Elev        	Demand      	Pattern         
+ 1               	343.2       	0           	                	;
+ 2               	350.5       	15.927      	                	;Senkhi Park Tank
+ 3               	458.5       	19.964      	                	;Mowb II Tank (fictitious)
+ 4               	376         	0           	                	;
+ 5               	441.84      	12.397      	                	;C-Sector Tank
+ 6               	352         	0           	                	;
+ 7               	397.6       	4.644       	                	;D-Sector Tank
+ 8               	350.46      	0           	                	;
+ 9               	433.785     	11.418      	                	;ESS Tank
+ 10              	405.3       	18.374      	                	;MLA Cottage Tank
+ 11              	391.72      	0           	                	;
+ 12              	407.79      	0           	                	;
+ 13              	406.55      	1.314       	                	;Adi Colony Tank
+ 14              	429.385     	5.74        	                	;Nyokum Colony
+ 15              	442         	7.992       	                	;Nithi Vihar OH  Tank
+ 16              	385.07      	0           	                	;
+ 17              	399         	1.437       	                	;Museum Tank
+ 18              	389.305     	1.165       	                	;Donyi Polo School
+ 19              	408.75      	0           	                	;Panchali Pump House
+ 20              	408.75      	0           	                	;Panchali Pump House
+ 21              	487         	0           	                	;
+ 22              	490         	7.657       	                	;P-Sector Tank
+ 23              	493.75      	14.234      	                	;Microwave Tank
+ 24              	506.75      	6.897       	                	;Rajbhawan Tank
+ 25              	263         	0           	                	;Gophur Tinali
+ 26              	260         	0           	                	;
+ 27              	328.87      	7.990       	                	;Gophur Tinali Tank
+ 28              	258.26      	4.154       	                	;Chimpu Battalion Tank
+ 29              	236.71      	0           	                	;
+ 30              	316.775     	5.012       	                	;All India Radio Tank
+ 31              	225         	0           	                	;
+ 32              	250         	0           	                	;
+ 33              	247.11      	0           	                	;
+ 34              	297.22      	5.895       	                	;Vivek Vihar
+ 35              	247.135     	0           	                	;
+ 36              	253.53      	3.834       	                	;Police Colony Tank
+ 37              	242.6       	4.205       	                	;DN College
+ 38              	303.265     	0           	                	;
+ 39              	304.26      	3.03        	                	;H-Sector Tank
+ 40              	312.455     	0           	                	;
+ 41              	338         	8.254       	                	;RK Mission Hospital
+ 42              	390.705     	9.624       	                	;G Extension Tank
+ 43              	292.09      	0           	                	;Senkhi Pump House
+ 44              	292.09      	0           	                	;Senkhi Pump House
+ 45              	511         	0           	                	;U/S of FCV 51
+ 46              	511         	0           	                	;D/S of FCV 51
+ 47              	511         	0           	                	;U/S of FCV 52
+ 48              	511         	0           	                	;D/S of FCV 52
+ 2n              	350.5       	0           	                	;
+ 3n              	458.5       	0           	                	;
+ 5n              	441.84      	0           	                	;
+ 7n              	397.6       	0           	                	;
+ 9n              	433.785     	0           	                	;
+ 10n             	405.3       	0           	                	;
+ 13n             	406.55      	0           	                	;
+ 14n             	429.385     	0           	                	;
+ 15n             	442         	0           	                	;
+ 17n             	399         	0           	                	;
+ 18n             	389.305     	0           	                	;
+ 22n             	490         	0           	                	;
+ 23n             	493.75      	0           	                	;
+ 24n             	506.75      	0           	                	; 
+ 27n             	328.87      	0           	                	;
+ 28n             	258.26      	0           	                	;
+ 30n             	316.775     	0           	                	;
+ 34n             	297.22      	0           	                	;
+ 36n             	253.53      	0           	                	;
+ 37n             	242.6       	0           	                	;
+ 39n             	304.26      	0           	                	;
+ 41n             	338         	0           	                	;
+ 42n             	390.705     	0           	                	;
+
+[RESERVOIRS]
+;ID              	Head        	Pattern         
+ 49              	294.71      	                	;Phase I (7 MLD)
+ 50              	517         	                	;Phase II (11 MLD)
+ 2r              	350.5       	                	;
+ 3r              	458.5       	                	;
+ 5r              	441.84      	                	;
+ 7r              	397.6       	                	;
+ 9r              	433.785     	                	;
+ 10r             	405.3       	                	;
+ 13r             	406.55      	                	;
+ 14r             	429.385     	                	;
+ 15r             	442         	                	;
+ 17r             	399         	                	;
+ 18r             	389.305     	                	;
+ 22r             	490         	                	;
+ 23r             	493.75      	                	;
+ 24r             	506.75      	                	; 
+ 27r             	328.87      	                	;
+ 28r             	258.26      	                	;
+ 30r             	316.775     	                	;
+ 34r             	297.22      	                	;
+ 36r             	253.53      	                	;
+ 37r             	242.6       	                	;
+ 39r             	304.26      	                	;
+ 41r             	338         	                	;
+ 42r             	390.705     	                	;
+
+[TANKS]
+;ID              	Elevation   	InitLevel   	MinLevel    	MaxLevel    	Diameter    	MinVol      	VolCurve
+ 51              	458.5       	2           	0.5         	3.1         	25.753      	0           	                	;Phase I (Old Tank I)
+ 52              	458.5       	2           	0.5         	3.1         	22.012      	0           	                	;Phase I (Old Tank II)
+ 53              	458.5       	2           	0.5         	3.1         	22.803      	0           	                	;Phase II (New Tank)
+
+[PIPES]
+;ID              	Node1           	Node2           	Length      	Diameter    	Roughness   	MinorLoss   	Status
+ 1               	1               	2               	25          	400         	140         	0           	Open  	;Ductile Iron
+ 2               	1               	53              	2430        	400         	140         	0           	CV    	;Ductile Iron
+ 3               	53              	3               	1           	400         	140         	0           	Open  	;Ductile Iron
+ 4               	53              	4               	1800        	300         	140         	0           	Open  	;Ductile Iron
+ 5               	4               	5               	710         	300         	140         	0           	Open  	;Ductile Iron
+ 6               	4               	6               	555         	300         	140         	0           	Open  	;Ductile Iron
+ 7               	6               	7               	650         	100         	100         	0           	Open  	;Galvanised Iron
+ 8               	6               	8               	345         	300         	140         	0           	Open  	;Ductile Iron
+ 9               	8               	9               	890         	250         	140         	0           	Open  	;Ductile Iron
+ 10              	8               	10              	1600        	150         	100         	0           	Open  	;Galvanised Iron
+ 11              	4               	11              	317         	300         	140         	0           	Open  	;Ductile Iron
+ 12              	11              	12              	590         	150         	100         	0           	Open  	;Galvanised Iron
+ 13              	12              	13              	30          	100         	100         	0           	Open  	;Galvanised Iron
+ 14              	12              	14              	260         	150         	100         	0           	Open  	;Galvanised Iron
+ 15              	53              	15              	1200        	150         	100         	0           	Open  	;Galvanised Iron
+ 16              	52              	16              	2540        	150         	100         	0           	Open  	;Galvanised Iron
+ 17              	16              	17              	100         	100         	100         	0           	Open  	;Galvanised Iron
+ 18              	16              	18              	3760        	150         	100         	0           	Open  	;Galvanised Iron
+ 19              	51              	19              	936         	200         	120         	0           	Open  	;Mild Steel
+ 20              	20              	21              	4032        	200         	120         	0           	Open  	;Mild Steel
+ 21              	21              	22              	10          	200         	120         	0           	Open  	;Mild Steel
+ 22              	21              	23              	700         	200         	120         	0           	Open  	;Mild Steel
+ 23              	21              	24              	1200        	150         	120         	0           	Open  	;Galvanised Iron
+ 24              	25              	26              	570         	150         	100         	0           	Open  	;Galvanised Iron
+ 25              	26              	27              	570         	150         	100         	0           	Open  	;Galvanised Iron
+ 26              	26              	28              	1300        	100         	100         	0           	Open  	;Galvanised Iron
+ 27              	25              	29              	800         	200         	140         	0           	Open  	;Ductile Iron
+ 28              	29              	30              	1400        	150         	100         	0           	Open  	;Galvanised Iron
+ 29              	29              	31              	650         	200         	140         	0           	Open  	;Ductile Iron
+ 30              	31              	32              	500         	200         	140         	0           	Open  	;Ductile Iron
+ 31              	32              	33              	300         	150         	100         	0           	Open  	;Galvanised Iron
+ 32              	33              	34              	700         	100         	100         	0           	Open  	;Galvanised Iron
+ 33              	33              	35              	25          	150         	100         	0           	Open  	;Galvanised Iron
+ 34              	35              	36              	212         	100         	100         	0           	Open  	;Galvanised Iron
+ 35              	35              	37              	960         	100         	100         	0           	Open  	;Galvanised Iron
+ 36              	32              	38              	920         	200         	140         	0           	Open  	;Ductile Iron
+ 37              	38              	39              	25          	100         	100         	0           	Open  	;Galvanised Iron
+ 38              	38              	40              	225         	200         	140         	0           	Open  	;Ductile Iron
+ 39              	40              	41              	235         	200         	140         	0           	Open  	;Ductile Iron
+ 40              	40              	42              	1020        	200         	140         	0           	Open  	;Ductile Iron
+ 41              	51              	52              	5           	400         	140         	0           	Open  	;Ductile iron
+ 42              	53              	52              	10          	400         	140         	0           	Open  	;Ductile Iron
+ 43              	49              	43              	4           	200         	120         	0           	Open  	;Mild Steel
+ 44              	44              	51              	1117        	200         	120         	0           	Open  	;Mild Steel
+ 45              	50              	45              	10          	400         	140         	0           	Open  	;
+ 46              	46              	1               	12757       	400         	140         	0           	Open  	;
+ 47              	50              	47              	10          	200         	140         	0           	Open  	;
+ 48              	48              	25              	8199        	200         	140         	0           	Open  	;
+ 2p              	2n              	2r              	0.1         	350         	130         	0           	CV    	;
+ 3p              	3n              	3r              	0.1         	350         	130         	0           	CV    	;
+ 5p              	5n              	5r              	0.1         	350         	130         	0           	CV    	;                                  ;
+ 7p              	7n              	7r              	0.1         	350         	130         	0           	CV    	;
+ 9p              	9n              	9r              	0.1         	350         	130         	0           	CV    	;
+ 10p             	10n             	10r             	0.1         	350         	130         	0           	CV    	;
+ 13p             	13n             	13r             	0.1         	350         	130         	0           	CV    	;
+ 14p             	14n             	14r             	0.1         	350         	130         	0           	CV    	;
+ 15p             	15n             	15r             	0.1         	350         	130         	0           	CV    	;
+ 17p             	17n             	17r             	0.1         	350         	130         	0           	CV    	;
+ 18p             	18n             	18r             	0.1         	350         	130         	0           	CV    	;
+ 22p             	22n             	22r             	0.1         	350         	130         	0           	CV    	;
+ 23p             	23n             	23r             	0.1         	350         	130         	0           	CV    	;
+ 24p             	24n             	24r             	0.1         	350         	130         	0           	CV    	;
+ 27p             	27n             	27r             	0.1         	350         	130         	0           	CV    	;
+ 28p             	28n             	28r             	0.1         	350         	130         	0           	CV    	;
+ 30p             	30n             	30r             	0.1         	350         	130         	0           	CV    	;
+ 34p             	34n             	34r             	0.1         	350         	130         	0           	CV    	;
+ 36p             	36n             	36r             	0.1         	350         	130         	0           	CV    	;
+ 37p             	37n             	37r             	0.1         	350         	130         	0           	CV    	;
+ 39p             	39n             	39r             	0.1         	350         	130         	0           	CV    	;
+ 41p             	41n             	41r             	0.1         	350         	130         	0           	CV    	;
+ 42p             	42n             	42r             	0.1         	350         	130         	0           	CV    	;
+
+[PUMPS]
+;ID              	Node1           	Node2           	Parameters
+ 49              	19              	20              	POWER 110	;Panchali Pump House
+ 50              	43              	44              	HEAD 1	;Senkhi WTP
+
+[VALVES]
+;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
+ 51              	45              	46              	350         	FCV 	58.711      	0           	;FCV
+ 52              	47              	48              	350         	FCV 	50          	0           	;FCV
+ 2v              	2               	2n              	350         	FCV 	15.927      	0           	;
+ 3v              	3               	3n              	350         	FCV 	19.964      	0           	;
+ 5v              	5               	5n              	350         	FCV 	12.397      	0           	;                                  ;
+ 7v              	7               	7n              	350         	FCV 	4.644       	0           	;
+ 9v              	9               	9n              	350         	FCV 	11.418      	0           	;
+ 10v             	10              	10n             	350         	FCV 	18.374      	0           	;
+ 13v             	13              	13n             	350         	FCV 	1.314       	0           	;
+ 14v             	14              	14n             	350         	FCV 	5.74        	0           	;
+ 15v             	15              	15n             	350         	FCV 	7.992       	0           	;
+ 17v             	17              	17n             	350         	FCV 	1.437       	0           	;
+ 18v             	18              	18n             	350         	FCV 	1.165       	0           	;
+ 22v             	22              	22n             	350         	FCV 	7.657       	0           	;
+ 23v             	23              	23n             	350         	FCV 	14.234      	0           	;
+ 24v             	24              	24n             	350         	FCV 	6.897       	0           	;
+ 27v             	27              	27n             	350         	FCV 	7.990       	0           	;
+ 28v             	28              	28n             	350         	FCV 	4.154       	0           	;
+ 30v             	30              	30n             	350         	FCV 	5.012       	0           	;
+ 34v             	34              	34n             	350         	FCV 	5.895       	0           	;
+ 36v             	36              	36n             	350         	FCV 	3.834       	0           	;
+ 37v             	37              	37n             	350         	FCV 	4.205       	0           	;
+ 39v             	39              	39n             	350         	FCV 	3.03        	0           	;
+ 41v             	41              	41n             	350         	FCV 	8.254       	0           	;
+ 42v             	42              	42n             	350         	FCV 	9.624       	0           	;
+
+[TAGS]
+
+[DEMANDS]
+;Junction        	Demand      	Pattern         	Category
+
+[STATUS]
+;ID              	Status/Setting
+
+[PATTERNS]
+;ID              	Multipliers
+
+[CURVES]
+;ID              	X-Value     	Y-Value
+;PUMP: PUMP: PUMP: 
+ 1               	70.451      	197.26      
+
+[CONTROLS]
+
+
+[RULES]
+
+
+[ENERGY]
+ Global Efficiency  	75
+ Global Price       	0
+ Demand Charge      	0
+
+[EMITTERS]
+;Junction        	Coefficient
+
+[QUALITY]
+;Node            	InitQual
+ 2n              	10
+ 3n              	10
+ 5n              	10
+ 7n              	10
+ 9n              	10
+ 10n             	10
+ 13n             	10
+ 14n             	10
+ 15n             	10
+ 17n             	10
+ 18n             	10
+ 22n             	10
+ 23n             	10
+ 24n             	10
+ 27n             	10
+ 28n             	10
+ 30n             	10
+ 34n             	10
+ 36n             	10
+ 37n             	10
+ 39n             	10
+ 41n             	10
+ 42n             	10
+
+[SOURCES]
+;Node            	Type        	Quality     	Pattern
+
+[REACTIONS]
+;Type     	Pipe/Tank       	Coefficient
+
+
+[REACTIONS]
+ Order Bulk            	1
+ Order Tank            	1
+ Order Wall            	1
+ Global Bulk           	0
+ Global Wall           	0
+ Limiting Potential    	0
+ Roughness Correlation 	0
+
+[MIXING]
+;Tank            	Model
+
+[TIMES]
+ Duration           	0:00 
+ Hydraulic Timestep 	1:00 
+ Quality Timestep   	0:05 
+ Pattern Timestep   	1:00 
+ Pattern Start      	0:00 
+ Report Timestep    	1:00 
+ Report Start       	0:00 
+ Start ClockTime    	12 am
+ Statistic          	NONE
+
+[REPORT]
+ Status             	Yes
+ Summary            	No
+ Page               	0
+
+[OPTIONS]
+ Units              	LPS
+ Headloss           	H-W
+ Specific Gravity   	1
+ Viscosity          	1
+ Trials             	1000
+ Accuracy           	0.001
+ CHECKFREQ          	2
+ MAXCHECK           	10
+ DAMPLIMIT          	0
+ Unbalanced         	Continue 10
+ Pattern            	1
+ Demand Multiplier  	1.0
+ Emitter Exponent   	0.5
+ Quality            	Chlorine mg/L
+ Diffusivity        	1
+ Tolerance          	0.01
+
+[COORDINATES]
+;Node            	X-Coord         	Y-Coord
+ 1               	3037.63         	4283.15         
+ 2               	3055.56         	5591.40         
+ 3               	9793.91         	6648.75         
+ 4               	10313.62        	4928.32         
+ 5               	11120.07        	3512.54         
+ 6               	9417.56         	4480.29         
+ 7               	9991.04         	3727.60         
+ 8               	8539.43         	3906.81         
+ 9               	9632.62         	2670.25         
+ 10              	9220.43         	1612.90         
+ 11              	11120.07        	5215.05         
+ 12              	12983.87        	5215.05         
+ 13              	12983.87        	5967.74         
+ 14              	14704.30        	4103.94         
+ 15              	4292.11         	6075.27         
+ 16              	11478.49        	6397.85         
+ 17              	11478.49        	7114.70         
+ 18              	14381.72        	8064.52         
+ 19              	11012.54        	9301.08         
+ 20              	12051.97        	9032.26         
+ 21              	12051.97        	2616.49         
+ 22              	12051.97        	1738.35         
+ 23              	10600.36        	1720.43         
+ 24              	15098.57        	1505.38         
+ 25              	-2159.50        	3835.13         
+ 26              	-2159.50        	3082.44         
+ 27              	-4256.27        	3082.44         
+ 28              	-654.12         	949.82          
+ 29              	-44.80          	4175.63         
+ 30              	-44.80          	6057.35         
+ 31              	1747.31         	3853.05         
+ 32              	2267.03         	3100.36         
+ 33              	2267.03         	2275.99         
+ 34              	3593.19         	1935.48         
+ 35              	2267.03         	1397.85         
+ 36              	1102.15         	1810.04         
+ 37              	3396.06         	232.97          
+ 38              	4955.20         	2706.09         
+ 39              	4955.20         	3584.23         
+ 40              	6173.84         	2580.65         
+ 41              	6568.10         	1792.11         
+ 42              	8091.40         	1254.48         
+ 43              	5295.70         	8637.99         
+ 44              	5743.73         	8297.49         
+ 45              	-3826.16        	6487.46         
+ 46              	-3270.61        	6146.95         
+ 47              	-4560.93        	5842.29         
+ 48              	-4184.59        	5358.42         
+ 49              	5134.41         	9444.44         
+ 50              	-4543.01        	6648.75         
+ 51              	7732.97         	6666.67         
+ 52              	8467.74         	6666.67         
+ 53              	9112.90         	6648.75         
+
+[VERTICES]
+;Link            	X-Coord         	Y-Coord
+ 1               	3037.63         	5627.24         
+ 1               	3091.40         	5591.40         
+ 2               	7284.95         	7526.88         
+ 2               	7267.03         	7526.88         
+ 2               	9077.06         	7526.88         
+ 10              	7643.37         	3189.96         
+ 14              	14704.30        	4856.63         
+ 15              	9077.06         	6075.27         
+ 16              	8324.37         	5681.00         
+ 18              	14453.41        	8100.36         
+ 26              	-2159.50        	1953.41         
+ 26              	-1568.10        	949.82          
+ 35              	2715.05         	340.50          
+ 40              	7141.58         	2401.43         
+ 42              	9130.82         	6756.27         
+ 42              	9166.67         	6666.67         
+ 42              	9148.75         	6666.67         
+ 42              	9148.75         	6666.67         
+ 42              	9148.75         	6666.67         
+ 46              	-1908.60        	4247.31         
+ 46              	8.96            	4677.42         
+ 50              	5672.04         	8333.33         
+ 52              	-4202.51        	5358.42         
+
+[LABELS]
+;X-Coord           Y-Coord          Label & Anchor Node
+ 2249.10          9767.03          "Senkhi View CWR"                 
+ -5385.30         7616.49          "GekarPutung CWR"                 
+ 10546.59         6039.43          "Zone I"                 
+ 11639.78         1111.11          "Zone II"                 
+ -707.89          3064.52          "Zone III"                 
+ 11388.89         9892.47          "Panchali Booster Pump"                 
+ 5833.33          9157.71          "Pump"                 
+ 2338.71          6200.72          "Senkhi Park"                 
+ 3879.93          6720.43          "Nithi Vihar"                 
+ 7571.68          8118.28          "MOWB II"                 
+ 11030.47         3405.02          "C-Sector"                 
+ 9811.83          3566.31          "D-Sector"                 
+ 9704.30          2634.41          "ESS"                 
+ 8808.24          1541.22          "MLA Cottage"                 
+ 12625.45         6523.30          "Adi Colony"                 
+ 13826.16         4014.34          "Nyokum Colony"                 
+ 10869.18         7688.17          "Museum "                 
+ 13593.19         8709.68          "Donyi Polo School"                 
+ 9381.72          7329.75          "MOWB II"                 
+ 11657.71         1577.06          "P Sector"                 
+ 10385.30         1594.98          "Microwave"                 
+ 14327.96         1308.24          "Rajbhawan"                 
+ -5170.25         2885.30          "Gophur Tinali"                 
+ -1478.49         806.45           "Chimpu Battalion"                 
+ -725.81          6756.27          "All India Radio"                 
+ 3754.48          1953.41          "Vivek Vihar"                 
+ -528.67          2043.01          "Police Colony"                 
+ 3808.24          519.71           "DN College"                 
+ 4310.04          4336.92          "H-Sector"                 
+ 5779.57          1666.67          "RKM Hospital"                 
+ 6862.24          1139.46          "G Extension (Node 42)"                 
+ -3477.89         6649.66          "FCV 51"                 
+ -4294.22         5901.36          "FCV 52"                 
+
+[BACKDROP]
+ DIMENSIONS     	0.00            	0.00            	10000.00        	10000.00        
+ UNITS          	Meters
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+[END]

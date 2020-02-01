@@ -1,0 +1,55 @@
+
+Log for 'lpex1' Clone_1 (V12.9.0.0) Sat Aug 24 01:28:43 2019
+
+
+Log for 'lpex1' Clone_1 (V12.9.0.0) Sat Aug 24 01:29:04 2019
+
+
+Log for 'lpex1' Clone_1 (V12.9.0.0) Sat Aug 24 01:29:59 2019
+
+
+Log for 'lpex1' Clone_1 (V12.9.0.0) Sat Aug 24 01:39:36 2019
+
+Tried aggregator 0 times.
+Presolve time = 20.10 sec. (2303.73 ticks)
+Parallel mode: using up to 10 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 8817900
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.52 sec. (1153.28 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 10
+  Rows in Factor            = 4200
+  Integer space required    = 4200
+  Total non-zeros in factor = 8822100
+  Total FP ops to factor    = 24704820700
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   0.0000000e+00   0.0000000e+00  1.14e-05  0.00e+00  0.00e+00  1.00e+00
+   1   0.0000000e+00   7.1987754e-11  1.18e-09  0.00e+00  2.45e-11  1.00e+04
+   2   0.0000000e+00   7.2041680e-15  2.56e-10  0.00e+00  3.31e-15  1.00e+08
+   3   0.0000000e+00   7.2041682e-19  2.55e-10  0.00e+00  4.64e-16  1.00e+12
+Barrier time = 40.33 sec. (60130.84 ticks)
+
+Log for 'lpex1' Clone_1 (V12.9.0.0) Sat Aug 24 01:41:48 2019
+
+
+Primal crossover.
+  Primal:  Fixed no variables.
+  Dual:  Fixed no variables.
+Parallel mode: deterministic, using up to 10 threads for concurrent optimization.
+
+Dual crossover.
+  Dual:  Fixed no variables.
+Using devex.
+  Primal:  Fixed no variables.
+
+Dual simplex solved model.
+
+
+Dual simplex solved model.
+
+Total crossover time = 65.97 sec. (74676.86 ticks)
+
+Total time on 10 threads = 197.88 sec. (207479.87 ticks)
+
+Barrier solved model.
+

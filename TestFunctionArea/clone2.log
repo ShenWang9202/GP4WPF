@@ -1,0 +1,49 @@
+
+Log for 'lpex1' Clone_2 (V12.9.0.0) Sat Aug 24 01:28:43 2019
+
+
+Log for 'lpex1' Clone_2 (V12.9.0.0) Sat Aug 24 01:29:04 2019
+
+
+Log for 'lpex1' Clone_2 (V12.9.0.0) Sat Aug 24 01:29:59 2019
+
+
+Log for 'lpex1' Clone_2 (V12.9.0.0) Sat Aug 24 01:39:36 2019
+
+Elapsed time = 71.74 sec. (70722.08 ticks, 1 iterations)
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =          1694.549215
+Iteration:   132    Scaled infeas =           955.475964
+Iteration:   283    Scaled infeas =           906.789845
+Iteration:   453    Scaled infeas =           877.157725
+Iteration:   642    Scaled infeas =           838.754205
+Iteration:   850    Scaled infeas =           806.489358
+Iteration:  1077    Scaled infeas =           773.304335
+Elapsed time = 80.27 sec. (80731.83 ticks, 1250 iterations)
+Iteration:  1323    Scaled infeas =           734.606713
+Iteration:  1589    Scaled infeas =           693.873076
+Elapsed time = 88.06 sec. (90739.97 ticks, 1611 iterations)
+Iteration:  1874    Scaled infeas =           650.249157
+Elapsed time = 93.81 sec. (100754.93 ticks, 1875 iterations)
+Elapsed time = 106.97 sec. (110773.08 ticks, 2153 iterations)
+Switched to devex.
+Iteration:  2178    Scaled infeas =           601.694230
+Elapsed time = 121.56 sec. (120838.60 ticks, 2253 iterations)
+Elapsed time = 132.29 sec. (130889.90 ticks, 2395 iterations)
+Elapsed time = 150.94 sec. (144641.89 ticks, 2502 iterations)
+Iteration:  2502    Scaled infeas =           574.922908
+Elapsed time = 161.77 sec. (154728.90 ticks, 2627 iterations)
+Elapsed time = 168.98 sec. (164811.92 ticks, 2747 iterations)
+Elapsed time = 182.37 sec. (181460.18 ticks, 2845 iterations)
+Iteration:  2845    Scaled infeas =           535.307626
+Elapsed time = 189.58 sec. (191489.00 ticks, 2955 iterations)
+Elapsed time = 196.61 sec. (201509.98 ticks, 3060 iterations)
+Elapsed time = 201.71 sec. (211550.76 ticks, 3162 iterations)
+Switched to steepest-edge.
+Elapsed time = 209.43 sec. (227681.07 ticks, 3208 iterations)
+Iteration:  3208    Scaled infeas =           488.169210
+Elapsed time = 214.56 sec. (237687.35 ticks, 3281 iterations)
+
+Barrier solved model.
+
